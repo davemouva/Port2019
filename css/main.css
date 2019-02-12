@@ -1,0 +1,22 @@
+* {font-family: 'Roboto', sans-serif;}
+
+.logo-bg {
+    background-color: #3e3e3e;
+    /* height:500px; */
+}
+
+h4,
+h6 
+{
+    color:white;
+}
+
+h4 {
+    transform: rotate(-90deg);
+    transform-origin: center center;
+}
+
+h4:first-child {
+    color:rgba(24, 3, 3, 0.55);
+    margin-top: 200px;
+}
