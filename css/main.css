@@ -2,7 +2,23 @@
 
 .logo-bg {
     background-color: #3e3e3e;
-    /* height:500px; */
+}
+
+.bg-circle-container {
+    overflow: hidden;
+    top:-10px;
+    position: relative;
+    height: 70px;
+}
+
+.bg-circle {
+    background-color: #3e3e3e;
+    height: 272px;
+    border-radius: 50%;
+    width: 120%;
+    position: relative;
+    left: -10%;
+    top: -208px;
 }
 
 h4,
@@ -12,11 +28,27 @@ h6
 }
 
 h4 {
-    transform: rotate(-90deg);
-    transform-origin: center center;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  display: inline;
+  margin: 30px -20px 13px;
+  font-size:65px;
 }
 
 h4:first-child {
-    color:rgba(24, 3, 3, 0.55);
-    margin-top: 200px;
+    color:rgba(255, 255, 255, 0.55);
+}
+
+.name-wrap {
+    border-bottom: 1px solid white;
+    text-align: center;
+    width: 120px;
+    margin: 0 auto 17px;
+}
+
+h6 {
+    font-size:12px;
+    text-align:center;
+    color:rgba(255,255,255,0.95);
+    font-weight:300;
 }
